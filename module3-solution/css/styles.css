@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+#our-menu {
+    font-size: 2.5em;
+}
+
+#header-nav .container, .navbar-header {
+    height: 100px;
+}
+.menu-section div {
+    margin: 2.5px;
+    background-color: cadetblue;
+    border: 5px, solid, black;
+}
+
+h2 {
+    padding-top: 10px;
+}
+
+@media (max-width: 991px) {
+    #sushi {
+        clear: left;
+    }
+}
+
+li {
+     background-color: coral;
+     font-size: 2em;
+     border: 1px, solid, black;
+}
+
+p {
+    padding: 5px;
+}
+
+.navbar-header button.navbar-toggle {
+    margin-top: 55px;
+    background-color: tan;
+  }
